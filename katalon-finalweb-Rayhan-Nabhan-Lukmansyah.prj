@@ -6,11 +6,12 @@
    <UUID>8e74bf5f-0735-4737-86db-77bf81cfbc43</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>10.4.3</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>10.4.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\rayha\Katalon Studio\katalon-finalweb-Rayhan-Nabhan-Lukmansyah\katalon-finalweb-Rayhan-Nabhan-Lukmansyah.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

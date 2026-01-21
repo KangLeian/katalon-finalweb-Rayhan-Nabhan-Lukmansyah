@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_menu</name>
+   <tag></tag>
+   <elementGuidId>3eaf98fe-6471-4f50-9bfc-c047f70058ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[text()=&quot;${menu}&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[text()=&quot;${menu}&quot;]</value>
+      <webElementGuid>9a2f4b33-e8b9-4f95-bd04-3cb7d0c196bf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
