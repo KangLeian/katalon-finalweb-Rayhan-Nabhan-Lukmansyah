@@ -23,7 +23,7 @@ Suite ini menggunakan pendekatan *Data-Driven Testing* untuk mencakup berbagai s
     *   Validasi pesan error dan sukses dengan mekanisme *Wait for Text* untuk menangani delay asinkron pada UI.
 
 ## 🛠️ Teknologi yang Digunakan
-*   **Katalon Studio**: Versi 9.x (Januari 2026).
+*   **Katalon Studio**: Versi 10.x (Januari 2026).
 *   **Bahasa Pemrograman**: Groovy/Java.
 *   **Teknik Spesial**: 
     *   Implementasi **Enum** untuk navigasi menu yang rapi.
