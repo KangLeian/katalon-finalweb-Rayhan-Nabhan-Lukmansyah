@@ -19,7 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('page/home_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('page/login_modal'), [('username') : '', ('password') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('page/login_modal'), [('username') : '', ('password') : '', ('errorMessage') : ''], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('page/create_account_page'), [:], FailureHandling.STOP_ON_FAILURE)
+int indexUser = (int) (Math.random() * 9999)
+GlobalVariable.username = 'testUserReg' + indexUser.toString()
+GlobalVariable.password = 'advDemo0'
+
+WebUI.callTestCase(findTestCase('page/create_account_page'), [('usernameRegisterPage') : GlobalVariable.username, ('emailRegisterPage') : 'testUserReg@katalon.learning'
+        , ('passwordRegisterPage') : GlobalVariable.password, ('firstName') : 'regy', ('lastName') : 'cath', ('phoneNumber') : '123123'
+        , ('country') : 'Indonesia', ('city') : 'Jekardah', ('address') : 'Jl Panjang menuju langit biru', ('province') : 'QongCing'
+        , ('postalCode') : '14045'], FailureHandling.STOP_ON_FAILURE)
 

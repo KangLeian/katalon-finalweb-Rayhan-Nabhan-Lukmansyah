@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_option_country</name>
+   <tag></tag>
+   <elementGuidId>6ce69b7a-6336-4064-a977-2cdfede359b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name=&quot;countryListboxRegisterPage&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@name=&quot;countryListboxRegisterPage&quot;]</value>
+      <webElementGuid>0f41a3a5-284b-4c3b-b403-0f28b07aa068</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

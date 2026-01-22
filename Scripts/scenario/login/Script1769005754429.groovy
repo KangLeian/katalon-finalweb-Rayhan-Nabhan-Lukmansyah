@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('page/login_modal'), [('username') : 'test', ('password') : 'test'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('page/login_modal'), [('username') : 'Test', ('password') : 'Test', ('errorMessage') : 'Incorrect user name or password.'], 
+    FailureHandling.STOP_ON_FAILURE)
 

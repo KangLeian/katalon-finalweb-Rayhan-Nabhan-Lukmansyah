@@ -31,5 +31,7 @@ if(username == '' || password == '') {
 	WebUI.setText(findTestObject('Object Repository/Login Modal/input_username_password', ['name' : 'password']), password)
 	WebUI.click(findTestObject('Object Repository/Login Modal/button_sign_in'))
 	
-	WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login Modal/label_sign_in_result')), errorMessage, false)
+	if(errorMessage !== "") {		
+		WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login Modal/label_sign_in_result')), errorMessage, false)
+	}
 }
