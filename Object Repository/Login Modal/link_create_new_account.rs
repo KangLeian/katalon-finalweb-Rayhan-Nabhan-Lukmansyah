@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_create_new_account</name>
+   <tag></tag>
+   <elementGuidId>bf260b89-e5d2-46fa-9fec-0baf02d4ef83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@translate=&quot;CREATE_NEW_ACCOUNT&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@translate=&quot;CREATE_NEW_ACCOUNT&quot;]</value>
+      <webElementGuid>dcf0a837-c79c-4bd4-92aa-7502062bc01f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

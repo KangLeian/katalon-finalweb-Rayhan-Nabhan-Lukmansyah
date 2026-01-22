@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>login_modal</name>
+   <tag></tag>
+   <elementGuidId>f2983b33-89eb-4900-b93a-8201cafb1c48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//login-modal</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//login-modal</value>
+      <webElementGuid>a457a534-6194-4747-92dd-a8ab84e6541d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

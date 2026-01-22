@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_sign_in_result</name>
+   <tag></tag>
+   <elementGuidId>6358d0b9-22f1-455f-a3ea-4921eb6749ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@id=&quot;signInResultMessage&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@id=&quot;signInResultMessage&quot;]</value>
+      <webElementGuid>3bc5959a-99f3-4ce4-abfa-269b66bcd433</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

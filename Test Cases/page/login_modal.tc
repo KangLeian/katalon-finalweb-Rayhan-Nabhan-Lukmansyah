@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login_modal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fb920001-acd5-4c60-a0a5-0d2130cf3c43</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7cdbecf-5ac9-42b8-877f-0ff9165c2456</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e1ee5e31-db25-4903-bcb3-d45720e4acfc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>170d8c02-3503-4407-8266-cf3f8b189513</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>d7cdbecf-5ac9-42b8-877f-0ff9165c2456</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>e1ee5e31-db25-4903-bcb3-d45720e4acfc</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Incorrect user name or password.'</defaultValue>
+      <description></description>
+      <id>170d8c02-3503-4407-8266-cf3f8b189513</id>
+      <masked>false</masked>
+      <name>errorMessage</name>
+   </variable>
+</TestCaseEntity>
