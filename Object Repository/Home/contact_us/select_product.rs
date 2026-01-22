@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_product</name>
+   <tag></tag>
+   <elementGuidId>99f99b8e-f410-413f-b7ec-e333d92483cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name=&quot;${name}&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@name=&quot;${name}&quot;]</value>
+      <webElementGuid>c8eb660c-76a2-40fd-b2b9-7f701b11e3e4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

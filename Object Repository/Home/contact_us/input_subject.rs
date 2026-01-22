@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_subject</name>
+   <tag></tag>
+   <elementGuidId>9b94088c-2720-42a2-b4eb-df59b5cc57e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@name=&quot;subjectTextareaContactUs&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[@name=&quot;subjectTextareaContactUs&quot;]</value>
+      <webElementGuid>5d7bb5c4-dfc4-45ce-a49f-ce43c3f3eebd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

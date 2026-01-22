@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_send</name>
+   <tag></tag>
+   <elementGuidId>a736dca5-ab53-4df0-aecf-2e798bd37266</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id=&quot;send_btn&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id=&quot;send_btn&quot;]</value>
+      <webElementGuid>dd298845-2f33-448d-8529-8b4d4850fe56</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
