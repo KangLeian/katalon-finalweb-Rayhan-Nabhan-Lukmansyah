@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_product</name>
+   <name>label_thank_you</name>
    <tag></tag>
-   <elementGuidId>99f99b8e-f410-413f-b7ec-e333d92483cd</elementGuidId>
+   <elementGuidId>7f97ed46-a8cc-4c11-8902-b84ba6e5f53f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//select[@name=&quot;${name}&quot;]</value>
+         <value>//p[@class=&quot;roboto-regular successMessage ng-binding&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//select[@name=&quot;${name}&quot;]</value>
-      <webElementGuid>295aa645-d033-4f23-88cb-4e0ba121b207</webElementGuid>
+      <value>//p[@class=&quot;roboto-regular successMessage ng-binding&quot;]</value>
+      <webElementGuid>757286cf-c995-410a-aada-1a262fbc1132</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

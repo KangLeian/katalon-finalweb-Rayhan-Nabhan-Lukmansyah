@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_product</name>
+   <name>option_product</name>
    <tag></tag>
-   <elementGuidId>99f99b8e-f410-413f-b7ec-e333d92483cd</elementGuidId>
+   <elementGuidId>571b14a2-5cc7-4010-9e1b-791e4c4e3749</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//select[@name=&quot;${name}&quot;]</value>
+         <value>//select[@name=&quot;${name}&quot;]/option[@label=&quot;${label}&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//select[@name=&quot;${name}&quot;]</value>
-      <webElementGuid>295aa645-d033-4f23-88cb-4e0ba121b207</webElementGuid>
+      <value>//select[@name=&quot;${name}&quot;]/option[@label=&quot;${label}&quot;]</value>
+      <webElementGuid>42a8cf53-5759-4ff3-9593-5cedfbdf0358</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

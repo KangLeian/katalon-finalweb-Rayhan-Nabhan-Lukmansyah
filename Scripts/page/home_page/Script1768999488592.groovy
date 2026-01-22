@@ -25,12 +25,13 @@ WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Home/nav_menu'
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Home/nav_menu', ["menu" : Menu.POPULAR_ITEMS.getLabel()])), Menu.POPULAR_ITEMS.getLabel(), false)
 
 if(category !== '' && product !== ''  && email !== ''  && subject !== '') {	
-	WebUI.selectOptionByLabel(findTestObject('Object Repository/Home/contact_us/select_product', ["id" : "categoryListboxContactUs"]), category, false)
-	WebUI.selectOptionByLabel(findTestObject('Object Repository/Home/contact_us/select_product', ["id" : "productListboxContactUs"]), product, false)
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/Home/contact_us/select_product', ["name" : "categoryListboxContactUs", "label" : category]), category, false)
+	WebUI.waitForElementPresent(findTestObject('Object Repository/Home/contact_us/option_product', ["name" : "productListboxContactUs", "label" : product]), 60)
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/Home/contact_us/select_product', ["name" : "productListboxContactUs", "label" : product]), product, false)
 	WebUI.setText(findTestObject('Object Repository/Home/contact_us/input_email'), email)
 	WebUI.setText(findTestObject('Object Repository/Home/contact_us/input_subject'), subject)
 	WebUI.click(findTestObject('Object Repository/Home/contact_us/button_send'))
-	if(errorMessage !== '') {
-		WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Home/contact_us/label_error')), errorMessage, false)
+	if(errorMessage == '') {
+		WebUI.verifyElementVisible(findTestObject('Object Repository/Home/contact_us/label_thank_you'))
 	}
 }
