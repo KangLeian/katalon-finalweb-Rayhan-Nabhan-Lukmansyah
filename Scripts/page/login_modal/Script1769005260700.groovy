@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Navigation/user_icon'), 30)
 WebUI.click(findTestObject('Object Repository/Navigation/user_icon'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Login Modal/login_modal'), 30)
@@ -34,5 +35,7 @@ if(username == '' || password == '') {
 	if(errorMessage !== "") {	
 		WebUI.waitForPageLoad(30)
 		WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login Modal/label_sign_in_result')), errorMessage, false)
+	}else {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Navigation/label_username'), 30)
 	}
 }

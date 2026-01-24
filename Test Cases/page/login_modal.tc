@@ -25,21 +25,21 @@
       <variableId>170d8c02-3503-4407-8266-cf3f8b189513</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>'testUserReg0001'</defaultValue>
       <description></description>
       <id>d7cdbecf-5ac9-42b8-877f-0ff9165c2456</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>'advDemo0'</defaultValue>
       <description></description>
       <id>e1ee5e31-db25-4903-bcb3-d45720e4acfc</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>'Incorrect user name or password.'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>170d8c02-3503-4407-8266-cf3f8b189513</id>
       <masked>false</masked>

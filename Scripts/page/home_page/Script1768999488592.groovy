@@ -33,5 +33,7 @@ if(category !== '' && product !== ''  && email !== ''  && subject !== '') {
 	WebUI.click(findTestObject('Object Repository/Home/contact_us/button_send'))
 	if(errorMessage == '') {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Home/contact_us/label_thank_you'))
+	}else {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Home/contact_us/label_error'), 10)
 	}
 }

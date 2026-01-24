@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_error</name>
+   <name>label_username</name>
    <tag></tag>
-   <elementGuidId>3b3c6f68-0efd-4b2e-b0c9-8bc5279d392c</elementGuidId>
+   <elementGuidId>cdd21aee-3a75-4c18-aca4-c4390b4d40b6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[text()=&quot; Invalid e-mail address. &quot;]</value>
+         <value>//span[@class=&quot;hi-user containMiniTitle ng-binding&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[text()=&quot; Invalid e-mail address. &quot;]</value>
-      <webElementGuid>8888e606-22fc-408b-b1d1-0ab4985f1891</webElementGuid>
+      <value>//span[@class=&quot;hi-user containMiniTitle ng-binding&quot;]</value>
+      <webElementGuid>a4f63ceb-c33a-4baa-ad87-a3c464588af8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
