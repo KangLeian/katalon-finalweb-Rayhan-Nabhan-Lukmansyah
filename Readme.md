@@ -2,6 +2,9 @@
 
 Proyek ini merupakan automation testing framework yang dikembangkan menggunakan **Katalon Studio** (v9.x/2026) untuk menguji platform e-commerce **Advantage Online Shopping**. Pengujian difokuskan pada keandalan fungsionalitas utama seperti manajemen akun dan validasi formulir interaktif.
 
+## Video
+[Google Drive](https://drive.google.com/file/d/1MW5tastJwYaaRtVrBvG80K6DZdbykVEv/view?usp=drive_link)
+
 ## 📝 Deskripsi Proyek
 Tujuan utama proyek ini adalah untuk melakukan verifikasi end-to-end pada website Advantage Shopping, memastikan alur bisnis mulai dari pendaftaran pengguna hingga layanan bantuan pelanggan (Contact Us) berjalan tanpa kendala secara otomatis.
 
